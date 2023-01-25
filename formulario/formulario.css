@@ -1,0 +1,13 @@
+body{
+    background-color: aliceblue;
+}
+
+
+.clientes{
+    width: 100%;
+    height: 50px;
+   border-radius: 15px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+  }

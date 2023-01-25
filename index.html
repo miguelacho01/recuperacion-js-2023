@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  
+</head>
+<body>
+    <header class="clientes">
+        <h1>Clientes</h1>
+    </header>
+
+    <main class="container">
+        <section class="container-busqueda">
+            <div class="container-lupa">
+                <input type="search" placeholder="Nombre, Nit/cc">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+            </div>
+           
+            <button class="crear-cliente">Crear Cliente</button>
+        </section>
+
+        <section>
+            <table id="tabla">
+                <tr class="columnas">
+                  <th>Nombre</th>
+                  <th>Apellido</th>
+                  <th>NIT</th>
+                  <th>Dirección</th>
+                  <th>Ciudad</th>
+                  <th>Teléfono</th>
+                  <th>Cupo Disponible</th>
+                  <th>Estado</th>
+                  <th>Acciones</th>
+                </tr>
+                    <!-- <tr>
+                    <td id="nombreTabla">1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    </tr> -->
+              </table>
+        </section>
+    </main>
+
+    <dialog class="dialog-form">
+        <header class="clientes">
+            <h1>Nuevo cliente</h1>
+        </header>
+
+        <button class="atras">Atras</button>
+
+        <form action="" class="form-container" id="userInput">
+
+            <div class="container-modal">
+            <div class="dotos1">
+
+                <label for="Nombre">Nombre</label>
+                <input type="text" id="nombre" name="Nombre">
+
+                <label for="nit">Nit/cc</label>
+                <input type="text" id="nit" name="nit">
+
+                <label for="ciudad">Ciudad</label>
+                <input type="text" id="ciudad" name="ciudad">
+
+                <label for="Contacto">Contacto</label>
+                <input type="text" id="contacto" name="Contacto">  
+                
+                
+            </div>
+            
+            <div class="dotos2">
+
+                <label for="Apellido">Apellido</label>
+                <input type="text" id="apellido" name="Apellido">
+
+                <label for="Direccion">Direccion</label>
+                <input type="text" id="direccion" name="Direccion">
+
+                <label for="Telefono">Telefono</label>
+                <input type="text" id="telefono" name="Telefono">
+            </div>
+
+            <div class="datos3">
+
+                <label for="cupo">Cupo total</label>
+                <input type="text" id="cupo" name="cupo">
+
+                <label for="disponible">Cupo Disponible</label>
+                <input type="text" id="disponible" name="disponible">
+
+                <label for="gracia">Dias de gracia</label>
+                <input type="text" id="gracia" name="gracia">
+
+
+            </div>
+
+
+        </div>
+
+        <button id="userInput">Guardar Cambios</button>
+        
+        </form>
+
+    
+      </dialog>
+
+    <script src="main.js"></script>
+</body>
+</html>

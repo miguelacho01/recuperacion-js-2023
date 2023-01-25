@@ -1,0 +1,148 @@
+
+body{
+    background-color: aliceblue;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    /* border: 1px solid black; */
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    height: 30px;
+  }
+
+  .clientes{
+    width: 100%;
+    height: 50px;
+   border-radius: 15px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+  }
+
+  .clientes h1{
+    margin: auto;
+    color: blueviolet;
+    font-weight: 10px;
+  }
+
+  .container{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    margin-top: 20px;
+  }
+
+  .container-busqueda{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    
+  }
+
+  .container-lupa{
+    height: 30px;
+    border: solid 1px;
+    border-radius: 5px;
+  }
+  
+.container-lupa input{
+    outline: none;
+    border-style: none;
+}
+
+.crear-cliente{
+    height: 35px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.dialog-form{
+    width: 100%;
+    height: 100vh;
+    background-color:aliceblue ;
+}
+
+/* .form-container{
+    width: 60%;
+    height: 50vh;
+    
+} */
+
+.container-modal{
+    display: flex;
+   
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+
+    
+    
+}
+.form-container{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+
+
+}
+
+.dotos1{
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.dotos2{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.datos3{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.atras{
+    margin-bottom: 20px;
+}
+
+
+
+
