@@ -9,7 +9,8 @@ const userInput = document.querySelector("#userInput");
 const tabla=document.querySelector('#tabla');
 
 
-userInput.addEventListener('click', ()=>{
+userInput.addEventListener('submit', (event)=>{
+    event.preventDefault()
 
     
     const nombre = document.querySelector('#nombre').value
@@ -25,7 +26,7 @@ userInput.addEventListener('click', ()=>{
 
     tabla.innerHTML+=`
     
-        <tr class="fila-${cont}">
+        <tr ">
             <td>${nombre}</td>
             <td>${apellido}</td>
             <td>${nit}</td>
@@ -34,8 +35,17 @@ userInput.addEventListener('click', ()=>{
             <td>${telefono}</td>
             <td>${disponible}</td>
             <td>Activo</td>
+            <td>
+            <span class="material-symbols-outlined">
+            edit
+            </span>
+            <span class="material-symbols-outlined" id="eliminar" >
+            delete
+            </span>
+            </td>
         </tr>`
-        modal.style.top='-100vh'
+        modal.close();
+        userInput.reset()
 
 })
 
